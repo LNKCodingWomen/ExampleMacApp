@@ -11,5 +11,8 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *nameTextField;
+@property (assign) IBOutlet NSTextField *helloNameLabel;
+@property (assign) IBOutlet NSString *nameString;
 
 @end
